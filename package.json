@@ -1,0 +1,34 @@
+{
+  "name": "portfolio-with-sass-and-bootstrap",
+  "version": "1.0.0",
+  "description": "learning bootstrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowthyselfBR/portfolio-with-sass-bootstrap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-v5",
+    "sass"
+  ],
+  "author": "Rafael Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knowthyselfBR/portfolio-with-sass-bootstrap/issues"
+  },
+  "homepage": "https://github.com/knowthyselfBR/portfolio-with-sass-bootstrap#readme",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "autoprefixer": "^10.4.7",
+    "bootstrap": "^5.2.0",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0"
+  }
+}
